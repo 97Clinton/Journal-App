@@ -19,7 +19,7 @@ app.use(express.static("public"));
 
 let posts = [];
 
-mongoose.connect("mongodb://0.0.0.0:27017/blogDB", {useNewUrlParser: true});
+mongoose.connect("mongodb://127.0.0.1/blogDB", {useNewUrlParser: true});
 
 const postSchema = {
   title: String,
