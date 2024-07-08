@@ -11,8 +11,18 @@
     font-size: 12px;
     letter-spacing: 5px;
 }
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.navbar-nav  li a {
+    transition: all 0.4s ease;
+}
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
+    text-decoration: underline;
+    scale: 1.15;
 }
 
 h3 {
@@ -22,6 +32,12 @@ h3 {
 /* p {
     margin-bottom: 30px;
 } */
+
+.post {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
 
 .footer-padding {
 	/* padding-bottom: 60px; */
@@ -42,4 +58,12 @@ h3 {
     padding-top: 25px;
 	font-size: 12px;
     color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-nav  li a:hover {
+        color: #1abc9c !important;
+        text-decoration: underline;
+        scale: 0.95;
+    }
 }
