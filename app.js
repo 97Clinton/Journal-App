@@ -24,19 +24,6 @@ const uri = 'mongodb+srv://ClinJS:Clinton97@cluster0.5d81fz7.mongodb.net/?retryW
 
 mongoose.connect(uri).
   catch(error => handleError(error));
-// mongoose.connect(
-//   'mongodb+srv://ClinJS:Clinton97@cluster0.5d81fz7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
-
-// ).then(
-//   () => {
-//       console.log("DB connected successfully!");
-//   }
-// ).catch(
-//   (error) => {
-//       console.log(error);
-      
-//   }
-// )
 
 // mongoose.connect("mongodb://127.0.0.1/blogDB", {useNewUrlParser: true});
 
