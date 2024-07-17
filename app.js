@@ -133,6 +133,6 @@ app.get("/posts/:postId", function(req, res){
 
 // const port = process.env.PORT || 10000;
 
-app.listen(10111, function() {
-  console.log("Server started on port");
+app.listen(5888, function() {
+  console.log("Server started on port 5888");
 });
